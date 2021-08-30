@@ -14,6 +14,7 @@ const {
   errorHandler,
 } = require("./middlewares/common/errorHandler");
 
+// app initializtion
 const app = express();
 dotenv.config(); // now process.env.something is accessible in the entire application
 
